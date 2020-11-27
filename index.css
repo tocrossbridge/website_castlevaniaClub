@@ -38,3 +38,30 @@ header h1{
 .banner h2 span{
     font-size: 1.3em;
 }
+
+
+/* NAV */
+nav{
+    background-color:#4b4b4b;
+    padding: 20px;
+    position: sticky;
+    top: 150px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li a.join{
+    font-weight: 900;
+}
