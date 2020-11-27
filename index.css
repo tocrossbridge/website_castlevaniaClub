@@ -3,6 +3,10 @@ html, body, h1, h2, h3, h4, h5, h6{
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+p::selection{
+    background-color: red;
+    color: white;
+}
 
 /* HEADER */
 header{
@@ -121,6 +125,7 @@ article p {
     max-width: 100%;
 }
 
+/* JOIN */
 .join{
     background: #f4f4f4;
     text-align: center;
