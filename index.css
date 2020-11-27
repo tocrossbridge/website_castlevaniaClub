@@ -66,6 +66,7 @@ nav li{
     display: inline-block;
     font-size: 24px;
 }
+
 nav li a{
     text-decoration: none;
     color: #fff;
@@ -92,6 +93,10 @@ article h2{
     color: darkred;
     font-size: 48px;
 }
+article p::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+}
 
 article p {
     line-height: 2em;
@@ -115,6 +120,7 @@ article p {
 .images li img{
     max-width: 100%;
 }
+
 .join{
     background: #f4f4f4;
     text-align: center;
