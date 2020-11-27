@@ -4,6 +4,7 @@ html, body, h1, h2, h3, h4, h5, h6{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* HEADER */
 header{
     background-color: #46100e;
     padding: 20px;
@@ -21,6 +22,8 @@ header h1{
     display: inline-block;
     border-radius: 36px;
 }
+
+/* BANNER */
 .banner{
     position: relative;
 }
@@ -72,10 +75,45 @@ nav li a.join{
     font-weight: 900;
 }
 
+/* MAIN */
 main{
     max-width: 100%;
     width: 1200px;
     margin: 80px auto;
     padding: 0 40px;
     box-sizing: border-box;
+}
+
+/* ARTICLES */
+article h2{
+    color: darkred;
+    font-size: 48px;
+}
+
+article p {
+    line-height: 2em;
+    color: #4b4b4b;
+}
+
+.images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+.images li img{
+    max-width: 100%;
+}
+.join{
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px 60px;
+    color: #4b4b4b;
+}
+.join h2{
+    font-size: 36px;
 }
