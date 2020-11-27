@@ -117,3 +117,12 @@ article p {
 .join h2{
     font-size: 36px;
 }
+
+/* CONTACT */
+form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid white;
+}
