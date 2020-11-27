@@ -126,3 +126,11 @@ form input{
     border-radius: 28px;
     border: 4px solid white;
 }
+
+/* FOOTER */
+footer{
+    background: #46100e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
